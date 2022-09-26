@@ -1,4 +1,4 @@
-# create contigs using SPAdes
+## create contigs using SPAdes
 #running into error "you cannot specify any data types except a single paired-end library in metaSPAdes mode!"
 #remedy this by running without --meta option
 	
