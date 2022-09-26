@@ -1,4 +1,4 @@
-#unzip files
+# unzip files
 #repeat for all replicates (4 each)
 gunzip P1_S69_L001_R1_001.fastq.gz  
 gunzip P1_S69_L001_R2_001.fastq.gz
