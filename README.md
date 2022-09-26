@@ -3,11 +3,11 @@ the code here is specific to my master's project ( pub coming soon !! )
 
 the pipeline is organized as follows:
 
-### [normalize_trimming](https://github.com/lexomoll/pumice_metagenome/blob/main/normalize_trimming.md)
+### normalize_trimming
 
 here I normalize kmers and trim sequences for quality
 
-### [binning](https://github.com/lexomoll/pumice_metagenome/blob/main/binning_metabat.md)
+### binning
 
 this walks you through contig creation, mapping reads, binning with Metabat and with Binsanity, and checking your work with checkm
 
@@ -15,7 +15,7 @@ spoilers: I don't end up continuing with my Metabat bins, but I wanted to share 
 
 comparing the MAGs generated from each binning tool, there were pros and cons for each. but we ultimately decided to go with binsanity MAGs because we were able to put together a much higher # of total MAGs that had higher completeness and less contamination
 
-### [annotation](https://github.com/lexomoll/pumice_metagenome/blob/main/annotation.md)
+### annotation
 
 using the newly created MAGs, we can use KEGG to annotate and assess the genetic potential of our metagenomes
 
