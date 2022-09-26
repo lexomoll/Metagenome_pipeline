@@ -42,4 +42,4 @@ I edited KEGG Decoder python file to only output pathways we're interested in (g
 
 `python3 /mnt/c/Users/lexim/Coding/BioData/KEGGDecoder/KEGG_decoder_edited.py --input compiled_annotation_koala.txt --output compiled_heatmap_keymetabolism.list --vizoption static`
 
-I then go on to make customized heatmaps with matplotlib, but I won't bore you with those details. but do let me know if you're interested in my graphing scripts !!
+I then go on to make customized heatmaps with [matplotlib](https://matplotlib.org/), but I won't bore you with those details. but do let me know if you're interested in my graphing scripts !!
