@@ -1,15 +1,13 @@
 #unzip files
 
-#repeat for all replicates
 `gunzip P1_S69_L001_R1_001.fastq.gz`
-`gunzip P1_S69_L001_R2_001.fastq.gz`
-`gunzip P2_S81_L001_R1_001.fastq.gz`
-`gunzip P2_S81_L001_R2_001.fastq.gz`
-`gunzip P3_S93_L001_R1_001.fastq.gz`
-`gunzip P3_S93_L001_R2_001.fastq.gz`
+
+
+#repeat for all replicates
 
 #concatenate files
 #repeat for R1 and R2 of each sample
+
 `cat P1_S69_L001_R1_001.fastq P1_S69_L002_R1_001.fastq P1_S69_L003_R1_001.fastq P1_S69_L004_R1_001.fastq > P1_S69_R1.fastq`
 
 from here on out, I only show code for one replicate but am actually doing the same thing on all 3
