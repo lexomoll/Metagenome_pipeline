@@ -14,7 +14,7 @@
 
 from here on out, I only show code for one replicate but am actually doing the same thing on all 3
 
-# normalize kmers using bbnorm
+## normalize kmers using bbnorm
 
 [here](https://jgi.doe.gov/data-and-tools/software-tools/bbtools/bb-tools-user-guide/bbnorm-guide/) is a very user-friendly guide to using BBNorm and all other BBMap tools
 this is where I start using conda environments, which I highly recommend! 
@@ -24,7 +24,7 @@ I'm working in conda env named bbmap - assume all tools I use were installed wit
 `bbnorm.sh in1=P1_S69_R1.fastq in2=P1_S69_R2.fastq out1=P1_norm_R1.fastq out2=P1_norm_R2.fastq target=30 min=3 kmer=21`
 
 
-# trim sequences for quality
+## trim sequences for quality
 #working in conda env trimm
 `trimmomatic PE P1_norm_R1.fastq P1_norm_R2.fastq pumice1_FP.fastq pumice1_FU.fastq pumice1_RP.fastq pumice1_RU.fastq LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36`
 
