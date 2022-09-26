@@ -24,6 +24,7 @@ I'm working in conda env named bbmap - assume all tools I use were installed wit
 
 ## trim sequences for quality
 #working in conda env trimm
+
 `trimmomatic PE P1_norm_R1.fastq P1_norm_R2.fastq pumice1_FP.fastq pumice1_FU.fastq pumice1_RP.fastq pumice1_RU.fastq LEADING:3 TRAILING:3 SLIDINGWINDOW:4:15 MINLEN:36`
 
 
