@@ -1,4 +1,6 @@
-this repository will walk you through how I process metagenomic data
+### want to understand the genetic potential of a microbial community?
+
+this repository will walk you through how I process <b>metagenomic data</b>
 
 these scripts were generated for my master's project studying the microbial ecology of pumice rafts in the Pacific Ocean (pub coming soon!!), but can generally be used for any metagenomic dataset
 
